@@ -13,7 +13,8 @@ import './styles/globals.css';
 
 function App() {
   return (
-    <Router>
+    // Add basename to match your GitHub Pages repo name
+    <Router basename="/ecommerce-website">
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">

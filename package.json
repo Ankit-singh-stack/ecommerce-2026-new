@@ -1,7 +1,9 @@
 {
-  "name": "ecommerce-website",
+  "name": "ecommerce-2026-new",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://ankit-singh-stack.github.io/ecommerce-2026-new",
+
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -13,23 +15,30 @@
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
+
   "devDependencies": {
-    "autoprefixer": "^10.4.14",
+    "gh-pages": "^5.0.0",
+    "tailwindcss": "^3.3.3",
     "postcss": "^8.4.27",
-    "tailwindcss": "^3.3.3"
+    "autoprefixer": "^10.4.14"
   },
+
   "scripts": {
     "start": "react-scripts start",
-    "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+
   "eslintConfig": {
     "extends": [
-      "react-app"
+      "react-app",
+      "react-app/jest"
     ]
   },
+
   "browserslist": {
     "production": [
       ">0.2%",

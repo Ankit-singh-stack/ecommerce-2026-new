@@ -104,11 +104,11 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-center space-x-3">
                 <FiMapPin className="text-primary-400" />
-                <span className="text-gray-400">123 Fashion Street, New York, NY 10001</span>
+                <span className="text-gray-400">india Delhi</span>
               </li>
               <li className="flex items-center space-x-3">
                 <FiPhone className="text-primary-400" />
-                <span className="text-gray-400">+1 (555) 123-4567</span>
+                <span className="text-gray-400">+91 9346718469</span>
               </li>
               <li className="flex items-center space-x-3">
                 <FiMail className="text-primary-400" />
