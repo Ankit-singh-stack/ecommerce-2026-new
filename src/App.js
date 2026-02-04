@@ -28,6 +28,9 @@ function App() {
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+
+          {/* 🔒 SAFETY FALLBACK */}
+          <Route path="*" element={<Home />} />
         </Routes>
       </main>
 
@@ -36,4 +39,4 @@ function App() {
   );
 }
 
-export default App;   // ✅ THIS LINE IS CRITICAL
+export default App;
